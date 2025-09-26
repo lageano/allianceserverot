@@ -1,63 +1,75 @@
-# Crystal Server
+# 🛡️ Alliance Server OT
 
-[![Discord](https://img.shields.io/discord/1310943869923495988?style=flat-square&logo=discord)](https://discord.gg/7AYJEHTghQ)
-[![Build - Ubuntu](https://github.com/zimbadev/crystalserver/actions/workflows/build-ubuntu.yml/badge.svg)](https://github.com/zimbadev/crystalserver/actions/workflows/build-ubuntu.yml)
-[![Build - Windows - CMake](https://github.com/zimbadev/crystalserver/actions/workflows/build-windows-cmake.yml/badge.svg)](https://github.com/zimbadev/crystalserver/actions/workflows/build-windows-cmake.yml)
-[![Build - Windows - Solution](https://github.com/zimbadev/crystalserver/actions/workflows/build-windows-solution.yml/badge.svg)](https://github.com/zimbadev/crystalserver/actions/workflows/build-windows-solution.yml)
-[![Build - Docker](https://github.com/zimbadev/crystalserver/actions/workflows/build-docker.yml/badge.svg)](https://github.com/zimbadev/crystalserver/actions/workflows/build-docker.yml)
-![GitHub repo size](https://img.shields.io/github/repo-size/zimbadev/crystalserver)
-[![GitHub](https://img.shields.io/github/license/zimbadev/crystalserver)](https://github.com/zimbadev/crystalserver/blob/main/LICENSE)
+[![Discord](https://img.shields.io/discord/1310943869923495988?style=flat-square&logo=discord&label=Discord)](https://discord.gg/Vx6sEr2cR6)  
+![GitHub repo size](https://img.shields.io/github/repo-size/lageano/allianceserverot)  
+[![GitHub](https://img.shields.io/github/license/lageano/allianceserverot)](https://github.com/lageano/allianceserverot/blob/main/LICENSE)
 
+---
 
-## Project
+## 📌 Sobre o Projeto
 
-Crystal Server is a free and open-source MMORPG server emulator written in C++.
+**Alliance Server OT** é um servidor customizado de **Tibia OTServer** desenvolvido em C++ com base no [The Forgotten Server](https://github.com/otland/forgottenserver) e [Open Tibia](https://github.com/opentibia/server).  
+Nosso objetivo é criar uma experiência moderna e divertida, com foco em jogabilidade equilibrada, customizações exclusivas e eventos especiais para a comunidade.
 
-It is based on [The Forgotten Server](https://github.com/otland/forgottenserver) project forked from [Open Tibia](https://github.com/opentibia/server).
+> ⚠️ **Status:** Em fase **BETA** – a participação no beta é feita através do [Radmin VPN](https://www.radmin-vpn.com/) para conexão dos jogadores.
 
-This project was created a long time ago to distribute a stable and safe distro for those who want to have a Tibia otserv.
+---
 
-To connect to the server and to take a stable experience, you can
-use the [Game Client](https://github.com/zimbadev/gameclient/releases) or [mehah's OTCLient](https://github.com/mehah/otclient).
+## 🚀 Recursos Principais
 
-If you want edit the map, use the [Remere's Map Editor](https://github.com/zimbadev/rme-crystalserver/releases).
+✨ **1. Servidor Customizado** – Criado e mantido pelos desenvolvedores e estudantes de Sistemas da Informação da **UNIPLAC**.  
+🧙‍♂️ **2. Addons Gratuitos** – Todos os jogadores podem desbloquear e usar addons sem custo.  
+🔥 **3. Magias VIP Liberadas** – Spells premium disponíveis para todos os jogadores.  
+🎯 **4. Eventos & Quests Free** – Diversos eventos e missões abertas a todos, sem necessidade de conta premium.  
+🪙 **5. Loja Secundária Mais Barata** – Preços reduzidos para Tibia Coins e itens exclusivos.  
 
-You are subject to our code of conduct, read
-at [this link](https://github.com/zimbadev/crystalserver/blob/main/CODE_OF_CONDUCT.md).
+---
 
-You can use your own tool to generate Monster Loot and Monster Elements at [this link](https://crystalsever.vercel.app).
+## 🧪 Como Participar do Beta
 
-### Official Discord
-Enjoy our [Discord](https://discord.gg/7AYJEHTghQ)
+Para jogar durante o período beta:  
 
-### Thanks
-- [Open Tibia](https://github.com/opentibia/server) and their [contributors](https://github.com/opentibia/server/graphs/contributors).
-- [The Forgotten Server](https://github.com/otland/forgottenserver) and their [contributors](https://github.com/otland/forgottenserver/graphs/contributors).
-- [Crystal Server](https://github.com/zimbadev/crystalserver) and their [contributors](https://github.com/zimbadev/crystalserver/graphs/contributors).
+1. Instale o [Radmin VPN](https://www.radmin-vpn.com/).  
+2. Entre no nosso servidor de testes (link no [Discord oficial](https://discord.gg/Vx6sEr2cR6)).  
+3. Baixe o cliente e conecte-se usando o IP fornecido no canal `#beta-server`.  
 
-### Issues
+💡 Dica: durante o beta você pode testar addons, magias VIP e participar de eventos exclusivos.
 
-We use the [issue tracker on GitHub](https://github.com/zimbadev/crystalserver/issues). Keep in mind that everyone who is
-watching the repository gets notified by e-mail when there is an activity, so be thoughtful and avoid writing comments
-that aren't meant for an issue (e.g. "+1"). If you'd like for an issue to be fixed faster, you should either fix it
-yourself and submit a pull request, or place a bounty on the issue.
+---
 
-### Pull requests
+## 🛠️ Desenvolvimento
 
-Before [creating a pull request](https://github.com/zimbadev/crystalserver/pulls) please keep in mind:
+Este projeto utiliza:
 
-* Do not send Pull Request changing the map, as we can't review the changes.
-* Focus on fixing only one thing, mixing too much things on the same Pull Request make it harder to review, harder to
-  test and if we need to revert the change it will remove other things together.
-* Follow the project indentation, if your editor support you can use the [editorconfig](https://editorconfig.org/) to
-  automatic configure the indentation.
-* There are people that doesn't play the game on the official server, so explain your changes to help understand what
-  are you changing and why.
-* Avoid opening a Pull Request to just update one line of a XML file.
+- 💻 **C++** – Lógica principal do servidor  
+- ⚙️ **CMake** – Sistema de build  
+- 🗺️ **RME (Remere's Map Editor)** – Edição de mapas  
+- 🧪 **OTClient** – Cliente customizado para testes  
 
+---
 
-### Download Latest Executable
-* Follow the steps in the video below to download the latest executable available, compiled by GitHub Actions.
+## 🤝 Contribuindo
 
-https://github.com/user-attachments/assets/58089db8-c86b-43ed-9601-556af2405a80
+Quer ajudar a melhorar o Alliance Server?  
+- Faça um fork deste repositório.  
+- Crie uma branch com sua feature ou correção.  
+- Envie um **Pull Request** explicando suas alterações.  
 
+⚠️ **Importante:** não envie PRs alterando o mapa diretamente — isso deve ser feito com cuidado e será revisado separadamente.
+
+---
+
+## 📬 Comunidade & Suporte
+
+Entre para nossa comunidade no [Discord Oficial](https://discord.gg/Vx6sEr2cR6)  
+📢 Lá você pode:  
+- Falar diretamente com os devs  
+- Relatar bugs  
+- Sugerir melhorias  
+- Participar dos testes beta
+
+---
+
+## 🧑‍💻 Créditos
+
+👨‍💻 Desenvolvido por: **Gabriel Vieira** e **Eduardo Vieira Pereira**
